@@ -1,10 +1,76 @@
 <!DOCTYPE html>
+
 <head>
   <title>Percobaan Javascript</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 </head>
+
 <body>
-  <input type="text" id="a"><br>
-  <input type="text" id="b"<br>
-  <input type="button" value="Click" onClick="alert(parseInt(document.getElementById('a').value) + parseInt(document.getElementById('b').value));">
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">Cekih Calculator</span>
+    </nav><br><br>
+    <div class=card>
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header">Pemain 1</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="inputScore">Input Score</label>
+                <input type="text" class="form-control" id="scorePlayer1"><br>
+                <label for="totalScore">Total Score</label>
+                <input type="text" class="form-control" id="totalScorePlayer1"><br>
+                <button class="btn btn-primary float-right">Tambah Skor</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header">Pemain 2</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="inputScore">Input Score</label>
+                <input type="text" class="form-control" id="scorePlayer2"></br>
+                <label for="totalScore">Total Score</label>
+                <input type="text" class="form-control" id="totalScorePlayer2" disabled></br>
+                <button class="btn btn-primary float-right">Tambah Skor</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header">Pemain 3</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="inputScore">Input Score</label>
+                <input type="text" class="form-control" id="scorePlayer3"></br>
+                <label for="totalScore">Total Score</label>
+                <input type="text" class="form-control" id="totalScorePlayer3" disabled></br>
+                <button class="btn btn-primary float-right">Tambah Skor</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-header">Pemain 4</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="inputScore">Input Score</label>
+                <input type="text" class="form-control" id="scorePlayer4"></br>
+                <label for="totalScore">Total Score</label>
+                <input type="text" class="form-control" id="totalScorePlayer4" disabled></br>
+                <button class="btn btn-primary float-right">Tambah Skor</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
